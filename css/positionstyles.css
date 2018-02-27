@@ -81,33 +81,37 @@ clear: both;
  /* Activity 4 styles */ 
 .content4 {
     /* This is the parent of the activity 4 boxes. */
-    height: 400px;
+    height: 100%;
     width: 200px;
-    margin: 0 auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+
 }
 .red4 {
 width: 100px; 
 height: 100px; 
 background-color: red; 
-float: left;
+
  } 
 .green4 {
 width: 100px; 
 height: 100px; 
 background-color: green; 
-float: left;
+
 } 
 .yellow4 {
 width: 100px; 
 height: 100px; 
 background-color: gold; 
-float: left;
+
  } 
 .blue4 {
 width: 100px; 
 height: 100px; 
 background-color: blue; 
-float: left;
+
  } 
  /* Activity 5 styles */ 
  .content5 {
