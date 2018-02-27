@@ -123,27 +123,19 @@ background-color: blue;
      grid-template-rows: 33% 33% 33%;
 }
 .red5 { 
-width: 100px; 
-height: 100px; 
 background-color: red; 
 grid-column: 1;
 grid-row: 1/6;
  } 
 .green5 { 
-width: 100px; 
-height: 100px; 
 background-color: green; 
 
  } 
 .yellow5 {
-width: 100px; 
-height: 100px; 
 background-color: gold; 
 
 } 
 .blue5 {
-width: 100px; 
-height: 100px; 
 background-color: blue; 
  } 
  /* Activity 6 styles */ 
