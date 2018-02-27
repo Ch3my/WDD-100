@@ -87,6 +87,7 @@ clear: both;
     display: flex;
     align-items: center;
     align-content: center;
+    flex-flow: wrap; 
 
 }
 .red4 {
