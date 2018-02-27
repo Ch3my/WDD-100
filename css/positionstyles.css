@@ -1,7 +1,7 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
 .content1 {
-    /* This is the parent of the activity 1 boxes. */
+    display:flex;
 }
 .red1 { 
 width: 100px; 
@@ -36,16 +36,21 @@ background-color: red;
 width: 100px; 
 height: 100px; 
 background-color: green; 
+margin-top: -50px 0 0 50px;;
+z-index: 2; 
+
  } 
 .yellow2 {
 width: 100px; 
 height: 100px; 
 background-color: gold; 
+margin: -50px 0 0 -100px;
 } 
 .blue2 {
 width: 100px; 
 height: 100px; 
 background-color: blue; 
+margin: -50px 0 0 -150px;
 } 
  /* Activity 3 styles */ 
 .content3 {
