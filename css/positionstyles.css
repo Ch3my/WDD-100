@@ -89,21 +89,25 @@ clear: both;
 width: 100px; 
 height: 100px; 
 background-color: red; 
+float: left;
  } 
 .green4 {
 width: 100px; 
 height: 100px; 
 background-color: green; 
+float: left;
 } 
 .yellow4 {
 width: 100px; 
 height: 100px; 
 background-color: gold; 
+float: left;
  } 
 .blue4 {
 width: 100px; 
 height: 100px; 
 background-color: blue; 
+float: left;
  } 
  /* Activity 5 styles */ 
  .content5 {
