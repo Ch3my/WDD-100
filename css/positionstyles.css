@@ -84,9 +84,9 @@ clear: both;
     height: 400px;
     width: 200px;
     margin: auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 100px 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
 
 }
 .red4 {
