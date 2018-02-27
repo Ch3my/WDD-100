@@ -118,11 +118,16 @@ background-color: blue;
  .content5 {
     /* This is the parent of the activity 5 boxes. */
      height: 400px;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 33% 33% 33%;
 }
 .red5 { 
 width: 100px; 
 height: 100px; 
 background-color: red; 
+grid-column: 1;
+grid-row: 1/6;
  } 
 .green5 { 
 width: 100px; 
