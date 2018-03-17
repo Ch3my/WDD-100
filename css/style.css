@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #415e23;
+    font-family: 'Shadows Into Light Two', cursive;
+    line-height: 1em;
+}
+header img {
+    position: absolute;
+    background-color: white;
+    border: 1 px black solid;
+}
+
+nav {
+    background-color: #adc594;
+    color: #415e23;
+}
+nav ul {
+    display: inline-flex;
+    margin: 0;
+}
+nav ul:first-child {
+    padding-left:130px;
+}
+nav li {
+    list-style: none;
+    padding: 1em;
+}
+nav li:hover {
+    background-color: #1f3947;
+    color: #e4a490;
+}
+nav a {
+    color: #415e23;
+    text-decoration: none;
+}
+nav li:hover a {
+    color: white;
+}
+main {
+    padding-top: 20px;
+}
+#sec1 {
+    position: relative;
+    /* background-color: #e4d3ce; */
+    min-height: 300px;
+}
+#sec1 .right-col {
+    top: 0;
+    position: absolute;
+    right: 0;
+    max-width: none;
+    padding: 0;
+}
+.sec1-h1 {
+    background-color: #e4d3ce;
+}
+.sec1-h1 h1 {
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    width: 100%;
+    background-color: #e4d3ce;
+}
+.sec-1-txt p {
+    position: relative;
+    padding-top: 75px;
+}
+
+#sec2 {
+    background-color: #adc594;
+    position: relative;
+    margin-top: 20px;
+}
+
+.sec2-txt {
+    color: white;
+    text-align: justify;
+}
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+#sec3 {
+    text-align: center;
+}
+.left-col {
+    max-width: 45%;
+    padding: 20px;
+}
+.right-col {
+    top: 0;
+    position: absolute;
+    max-width: 40%;
+    padding: 20px;
+    right: 0;
+}
+footer {
+    width: 100%;
+    position: relative;
+}
+@media screen and (max-width: 450px) {
+    .sec1-h1 h1 {
+        position: relative;
+    }
+    .right-col{
+        max-width: 100%;
+        position: relative;
+    }
+    .left-col {
+        max-width: 100%;
+    }
+    #sec1 .right-col {
+        position: relative;
+    }
+    .sec-1-txt p {
+        padding-top: 0px;
+    }
+    img {
+        width: 100%;
+    }
+    footer div a img {
+        width: 32%;
+    }
+    header img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+    nav ul:first-child {
+        padding-left: 0px;
+    }
+}
