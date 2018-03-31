@@ -161,5 +161,15 @@ label {
 }
 #contact-sec3 {
     display: inline-block;
+    text-align: center;
 }
-
+textarea {
+    width: 100%;
+}
+#submit {
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #974757;
+    font-family: 'Shadows Into Light Two', cursive;
+}
