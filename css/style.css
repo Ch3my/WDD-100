@@ -140,9 +140,6 @@ footer {
     nav ul:first-child {
         padding-left: 0px;
     }
-    #contact {
-        max-width:90%;
-    }
 }
 /* ****************************************
 *                   CONTACT
@@ -182,5 +179,9 @@ textarea {
 }
 #contact-img {
     margin-top: 5%;
-
+}
+@media screen and (max-width: 800px) {
+    #contact {
+        max-width:90%;
+    }
 }
