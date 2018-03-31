@@ -151,7 +151,7 @@ label {
     font-size: 20px;
 }
 #contact {
-    max-width:40%;
+    max-width:50%;
     padding: 40px 0; 
     float:left;
 }
@@ -167,9 +167,10 @@ textarea {
     width: 100%;
 }
 #submit {
-    width: 100px;
-    padding: 5px;
+    width: 100px!important;
+    padding: 5px!important;
     background-color: white;
     border: 1px solid #974757;
     font-family: 'Shadows Into Light Two', cursive;
+    font-size: 20px;
 }
