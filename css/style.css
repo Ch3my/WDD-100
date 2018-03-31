@@ -140,6 +140,9 @@ footer {
     nav ul:first-child {
         padding-left: 0px;
     }
+    #contact {
+        max-width:90%;
+    }
 }
 /* ****************************************
 *                   CONTACT
@@ -152,7 +155,7 @@ label {
 }
 #contact {
     max-width:50%;
-    padding: 40px 0; 
+    padding:  0 0 40px 0; 
     float:left;
 }
 #contact input {
@@ -176,4 +179,8 @@ textarea {
 }
 #submit:hover {
     background-color: bisque;
+}
+#contact-img {
+    margin-top: 5%;
+
 }
