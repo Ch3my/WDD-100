@@ -45,7 +45,7 @@ nav li:hover a {
     color: white;
 }
 .active {
-    background-color: #adc59473;
+    background-color: #f3f7cb;
 }
 main {
     padding-top: 20px;
