@@ -170,7 +170,10 @@ textarea {
     width: 100px!important;
     padding: 5px!important;
     background-color: white;
-    border: 1px solid #974757;
+    border: 2px solid #974757;
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 20px;
+}
+#submit:hover {
+    background-color: bisque;
 }
