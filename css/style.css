@@ -141,3 +141,22 @@ footer {
         padding-left: 0px;
     }
 }
+/* ****************************************
+*                   CONTACT
+****************************************** */
+
+label {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #974757;
+    font-size: 20px;
+}
+#contact {
+    max-width:40%;
+    padding: 40px 0; 
+    float:left;
+}
+#contact input {
+    width: 100%;
+    padding:3px;
+}
+
